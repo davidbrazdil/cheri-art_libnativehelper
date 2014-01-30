@@ -27,6 +27,7 @@
 
 #include "jni.h"
 #include <unistd.h>
+#include <errno.h>
 
 #ifndef NELEM
 # define NELEM(x) ((int) (sizeof(x) / sizeof((x)[0])))
